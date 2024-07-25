@@ -1,14 +1,14 @@
-body,html{
-    height: 100%;
+body{
+    height: 100vh;
     background-color: #f7f7f7;
     display: grid;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .box{
     padding: 10px 20px 30px 20px;
-    display: grid;
     height: auto;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     background-color: #fff;
@@ -27,4 +27,7 @@ ul li {
     align-items: center;
     margin-bottom: 10px;
     padding: 0 8px;
+}
+button{
+    margin-left: 5px;
 }
